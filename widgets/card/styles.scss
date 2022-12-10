@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&display=swap');
 
-*, *:after, *:before {
-	box-sizing: border-box;
-}
+
 
 body {
 	font-family: "Lexend", sans-serif;
 	line-height: 1.5;
-	min-height: 100vh;
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -26,7 +24,7 @@ img {
 }
 
 .card {
-	background-color: #FFF;
+	background-color: rgb(165, 24, 24);
 	box-shadow: 0 0 0 1px rgba(#000, .05), 0 20px 50px 0 rgba(#000, .1);
 	border-radius: 15px;
 	overflow: hidden;
